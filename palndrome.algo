@@ -1,0 +1,8 @@
+Fonction palindrome (int tab[6], int i, int j ):boolean
+Début
+si i ≥ j alors
+retourner (VRAI) ;
+sinon
+retourner (mot[i] = mot[j] et palindrome(mot, i + 1, j – 1)) ;
+fin si ;
+Fin
